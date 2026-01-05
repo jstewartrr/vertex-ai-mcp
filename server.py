@@ -28,11 +28,11 @@ CORS(app)
 
 GOOGLE_PROJECT_ID = os.environ.get("GOOGLE_PROJECT_ID", "innate-concept-481918-h9")
 GOOGLE_LOCATION = os.environ.get("GOOGLE_LOCATION", "us-central1")
-SNOWFLAKE_ACCOUNT = os.environ.get("SNOWFLAKE_ACCOUNT", "dma22041.us-east-1")
-SNOWFLAKE_USER = os.environ.get("SNOWFLAKE_USER", "JOHN_CLAUDE")
-SNOWFLAKE_PASSWORD = os.environ.get("SNOWFLAKE_PASSWORD", "Middleground986959")
+SNOWFLAKE_ACCOUNT = os.environ.get("SNOWFLAKE_ACCOUNT", "jga82554.east-us-2.azure")
+SNOWFLAKE_USER = os.environ.get("SNOWFLAKE_USER", "JOHN_GROK")
+SNOWFLAKE_PASSWORD = os.environ.get("SNOWFLAKE_PASSWORD", "GrokMind2025Secure")
 SNOWFLAKE_DATABASE = os.environ.get("SNOWFLAKE_DATABASE", "SOVEREIGN_MIND")
-SNOWFLAKE_WAREHOUSE = os.environ.get("SNOWFLAKE_WAREHOUSE", "COMPUTE_WH")
+SNOWFLAKE_WAREHOUSE = os.environ.get("SNOWFLAKE_WAREHOUSE", "SOVEREIGN_MIND_WH")
 
 _snowflake_conn = None
 _vertexai_initialized = False
